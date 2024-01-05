@@ -1,0 +1,860 @@
+starting logging
+02:53:40
+MiB Mem :   3356.8 total,   3179.7 free,    120.3 used,     56.8 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   3095.3 avail Mem 
+  12963 root      20   0  232812  13272   2956 R  24.2   0.4   0:00.33 /bin/bash ./mem.sh
+  12964 root      20   0  233472  13980   2872 R  21.2   0.4   0:00.34 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222516 3052 2808 S 0.0 0.1 0:00.00 bash watch2.sh
+-----------------------------------
+02:53:41
+MiB Mem :   3356.8 total,   3131.0 free,    168.7 used,     57.1 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   3046.8 avail Mem 
+  12963 root      20   0  257760  38352   2956 R  47.1   1.1   0:01.06 /bin/bash ./mem.sh
+  12964 root      20   0  258024  38532   2872 R  47.1   1.1   0:01.07 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222516 3160 2872 S 0.0 0.1 0:00.01 bash watch2.sh
+-----------------------------------
+02:53:43
+MiB Mem :   3356.8 total,   3084.5 free,    215.2 used,     57.1 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   3000.2 avail Mem 
+  12964 root      20   0  282048  62556   2872 R  56.2   1.8   0:01.76 /bin/bash ./mem2.sh
+  12963 root      20   0  280992  61584   2956 R  50.0   1.8   0:01.75 /bin/bash ./mem.sh
+  12991 root      20   0  275084   4496   3920 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222516 3180 2872 S 0.0 0.1 0:00.01 bash watch2.sh
+-----------------------------------
+02:53:44
+MiB Mem :   3356.8 total,   3039.0 free,    260.5 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2954.9 avail Mem 
+  12963 root      20   0  304620  85080   2956 R  47.1   2.5   0:02.43 /bin/bash ./mem.sh
+  12964 root      20   0  304884  85260   2872 R  47.1   2.5   0:02.43 /bin/bash ./mem2.sh
+  13004 root      20   0  275084   4496   3920 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222516 3192 2872 S 0.0 0.1 0:00.01 bash watch2.sh
+-----------------------------------
+02:53:46
+MiB Mem :   3356.8 total,   2993.4 free,    306.0 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2909.3 avail Mem 
+  12964 root      20   0  328380 109020   2872 R  56.2   3.2   0:03.11 /bin/bash ./mem2.sh
+  12963 root      20   0  327324 107784   2956 R  43.8   3.1   0:03.10 /bin/bash ./mem.sh
+  13017 root      20   0  275084   4436   3856 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222516 3192 2872 S 0.0 0.1 0:00.01 bash watch2.sh
+-----------------------------------
+02:53:47
+MiB Mem :   3356.8 total,   2948.9 free,    350.5 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2864.8 avail Mem 
+  12963 root      20   0  350688 131280   2956 R  50.0   3.8   0:03.78 /bin/bash ./mem.sh
+  12964 root      20   0  350820 131460   2872 R  37.5   3.8   0:03.77 /bin/bash ./mem2.sh
+  13030 root      20   0  275084   4364   3788 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3204 2872 S 0.0 0.1 0:00.01 bash watch2.sh
+-----------------------------------
+02:53:48
+MiB Mem :   3356.8 total,   2903.1 free,    396.3 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2819.0 avail Mem 
+  12963 root      20   0  373788 154248   2956 R  44.4   4.5   0:04.46 /bin/bash ./mem.sh
+  12964 root      20   0  374448 154956   2872 R  38.9   4.5   0:04.46 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222632 3204 2872 S 0.0 0.1 0:00.01 bash watch2.sh
+-----------------------------------
+02:53:50
+MiB Mem :   3356.8 total,   2857.6 free,    441.8 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2773.5 avail Mem 
+  12963 root      20   0  396756 177480   2956 R  50.0   5.2   0:05.13 /bin/bash ./mem.sh
+  12964 root      20   0  397680 178188   2872 R  43.8   5.2   0:05.14 /bin/bash ./mem2.sh
+  13058 root      20   0  275084   4484   3908 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3212 2872 S 0.0 0.1 0:00.01 bash watch2.sh
+-----------------------------------
+02:53:51
+MiB Mem :   3356.8 total,   2811.6 free,    487.8 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2727.5 avail Mem 
+  12963 root      20   0  420516 200976   2956 R  58.8   5.8   0:05.83 /bin/bash ./mem.sh
+  12964 root      20   0  421176 201684   2872 R  41.2   5.9   0:05.82 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222632 3212 2872 S 0.0 0.1 0:00.02 bash watch2.sh
+-----------------------------------
+02:53:53
+MiB Mem :   3356.8 total,   2765.3 free,    534.1 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2681.2 avail Mem 
+  12964 root      20   0  445068 225444   2872 R  52.9   6.6   0:06.51 /bin/bash ./mem2.sh
+  12963 root      20   0  444012 224736   2956 R  47.1   6.5   0:06.51 /bin/bash ./mem.sh
+  13084 root      20   0  275084   4412   3832 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3212 2872 S 0.0 0.1 0:00.02 bash watch2.sh
+-----------------------------------
+02:53:54
+MiB Mem :   3356.8 total,   2719.0 free,    580.4 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2634.9 avail Mem 
+  12963 root      20   0  467772 248496   2956 R  47.1   7.2   0:07.19 /bin/bash ./mem.sh
+  12964 root      20   0  468696 249204   2872 R  41.2   7.2   0:07.19 /bin/bash ./mem2.sh
+  13097 root      20   0  275084   4504   3924 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3224 2872 S 0.0 0.1 0:00.02 bash watch2.sh
+-----------------------------------
+02:53:55
+MiB Mem :   3356.8 total,   2673.5 free,    625.9 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2589.4 avail Mem 
+  12963 root      20   0  491004 271464   2956 R  44.4   7.9   0:07.87 /bin/bash ./mem.sh
+  12964 root      20   0  491928 272436   2872 R  38.9   7.9   0:07.87 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222632 3224 2872 S 0.0 0.1 0:00.02 bash watch2.sh
+-----------------------------------
+02:53:57
+MiB Mem :   3356.8 total,   2628.5 free,    670.9 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2544.4 avail Mem 
+  12963 root      20   0  513840 294432   2956 R  50.0   8.6   0:08.56 /bin/bash ./mem.sh
+  12964 root      20   0  515028 295668   2872 R  50.0   8.6   0:08.56 /bin/bash ./mem2.sh
+  13123 root      20   0  275084   4444   3868 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3236 2872 S 0.0 0.1 0:00.02 bash watch2.sh
+-----------------------------------
+02:53:58
+MiB Mem :   3356.8 total,   2583.7 free,    715.7 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2499.6 avail Mem 
+  12964 root      20   0  537732 318108   2872 R  47.1   9.3   0:09.22 /bin/bash ./mem2.sh
+  12963 root      20   0  536148 316608   2956 R  35.3   9.2   0:09.21 /bin/bash ./mem.sh
+  13136 root      20   0  275084   4520   3940 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3236 2872 S 0.0 0.1 0:00.03 bash watch2.sh
+-----------------------------------
+02:53:59
+MiB Mem :   3356.8 total,   2538.9 free,    760.5 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2454.8 avail Mem 
+  12963 root      20   0  559116 339576   2956 R  50.0   9.9   0:09.88 /bin/bash ./mem.sh
+  12964 root      20   0  560172 340548   2872 R  43.8   9.9   0:09.87 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222632 3244 2872 S 0.0 0.1 0:00.03 bash watch2.sh
+-----------------------------------
+02:54:01
+MiB Mem :   3356.8 total,   2493.1 free,    806.3 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2409.0 avail Mem 
+  12963 root      20   0  582744 363336   2956 R  55.6  10.6   0:10.57 /bin/bash ./mem.sh
+  12964 root      20   0  583404 363780   2872 R  38.9  10.6   0:10.55 /bin/bash ./mem2.sh
+  13163 root      20   0  275084   4500   3924 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3244 2872 S 0.0 0.1 0:00.03 bash watch2.sh
+-----------------------------------
+02:54:02
+MiB Mem :   3356.8 total,   2448.6 free,    850.8 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2364.5 avail Mem 
+  12964 root      20   0  606900 387276   2872 R  52.9  11.3   0:11.23 /bin/bash ./mem2.sh
+  12963 root      20   0  604920 385512   2956 R  47.1  11.2   0:11.22 /bin/bash ./mem.sh
+  13176 root      20   0  275084   4548   3968 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3244 2872 S 0.0 0.1 0:00.03 bash watch2.sh
+-----------------------------------
+02:54:04
+MiB Mem :   3356.8 total,   2402.8 free,    896.6 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2318.7 avail Mem 
+  12964 root      20   0  630396 410772   2872 R  52.9  12.0   0:11.92 /bin/bash ./mem2.sh
+  12963 root      20   0  627888 408480   2956 R  41.2  11.9   0:11.90 /bin/bash ./mem.sh
+  13189 root      20   0  275084   4480   3904 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3256 2872 S 0.0 0.1 0:00.03 bash watch2.sh
+-----------------------------------
+02:54:05
+MiB Mem :   3356.8 total,   2357.8 free,    941.6 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2273.7 avail Mem 
+  12963 root      20   0  651384 431976   2956 R  42.1  12.6   0:12.59 /bin/bash ./mem.sh
+  12964 root      20   0  652968 433476   2872 R  36.8  12.6   0:12.57 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222632 3256 2872 S 0.0 0.1 0:00.03 bash watch2.sh
+-----------------------------------
+02:54:06
+MiB Mem :   3356.8 total,   2312.0 free,    987.4 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2227.9 avail Mem 
+  12963 root      20   0  674616 455208   2956 R  42.1  13.2   0:13.26 /bin/bash ./mem.sh
+  12964 root      20   0  676860 457236   2872 R  42.1  13.3   0:13.27 /bin/bash ./mem2.sh
+  13215 root      20   0  275084   4516   3940 R   5.3   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3256 2872 S 0.0 0.1 0:00.04 bash watch2.sh
+-----------------------------------
+02:54:08
+MiB Mem :   3356.8 total,   2266.9 free,   1032.4 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2182.9 avail Mem 
+  12963 root      20   0  697716 478176   2956 R  50.0  13.9   0:13.93 /bin/bash ./mem.sh
+  12964 root      20   0  699432 479940   2872 R  43.8  14.0   0:13.92 /bin/bash ./mem2.sh
+  13228 root      20   0  275084   4500   3924 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3268 2872 S 0.0 0.1 0:00.04 bash watch2.sh
+-----------------------------------
+02:54:09
+MiB Mem :   3356.8 total,   2221.9 free,   1077.4 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2137.8 avail Mem 
+  12964 root      20   0  722532 502908   2872 R  47.1  14.6   0:14.59 /bin/bash ./mem2.sh
+  12963 root      20   0  720552 501144   2956 R  41.2  14.6   0:14.60 /bin/bash ./mem.sh
+  13243 root      20   0  275084   4508   3932 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3268 2872 S 0.0 0.1 0:00.04 bash watch2.sh
+-----------------------------------
+02:54:11
+MiB Mem :   3356.8 total,   2176.4 free,   1123.0 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2092.3 avail Mem 
+  12963 root      20   0  743784 524376   2956 R  50.0  15.3   0:15.28 /bin/bash ./mem.sh
+  12964 root      20   0  745896 526404   2872 R  38.9  15.3   0:15.27 /bin/bash ./mem2.sh
+  13256 root      20   0  275084   4556   3980 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3268 2872 S 0.0 0.1 0:00.04 bash watch2.sh
+-----------------------------------
+02:54:12
+MiB Mem :   3356.8 total,   2131.4 free,   1168.0 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2047.3 avail Mem 
+  12963 root      20   0  766356 546816   2956 R  44.4  15.9   0:15.95 /bin/bash ./mem.sh
+  12964 root      20   0  769392 549900   2872 R  44.4  16.0   0:15.95 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222632 3280 2872 S 0.0 0.1 0:00.04 bash watch2.sh
+-----------------------------------
+02:54:13
+MiB Mem :   3356.8 total,   2085.6 free,   1213.8 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   2001.5 avail Mem 
+  12963 root      20   0  789588 570312   2956 R  42.1  16.6   0:16.62 /bin/bash ./mem.sh
+  12964 root      20   0  793020 573396   2872 R  42.1  16.7   0:16.64 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222632 3280 2872 S 0.0 0.1 0:00.05 bash watch2.sh
+-----------------------------------
+02:54:15
+MiB Mem :   3356.8 total,   2039.3 free,   1260.0 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1955.2 avail Mem 
+  12964 root      20   0  816384 596892   2872 R  50.0  17.4   0:17.31 /bin/bash ./mem2.sh
+  12963 root      20   0  813480 594072   2956 R  43.8  17.3   0:17.31 /bin/bash ./mem.sh
+  13295 root      20   0  275084   4556   3980 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3288 2872 S 0.0 0.1 0:00.05 bash watch2.sh
+-----------------------------------
+02:54:16
+MiB Mem :   3356.8 total,   1994.5 free,   1304.8 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1910.5 avail Mem 
+  12963 root      20   0  836448 617040   2956 R  47.1  18.0   0:17.99 /bin/bash ./mem.sh
+  12964 root      20   0  839220 619860   2872 R  41.2  18.0   0:17.98 /bin/bash ./mem2.sh
+  13308 root      20   0  275084   4576   4000 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3288 2872 S 0.0 0.1 0:00.05 bash watch2.sh
+-----------------------------------
+02:54:18
+MiB Mem :   3356.8 total,   1948.8 free,   1350.6 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1864.7 avail Mem 
+  12964 root      20   0  863112 643620   2872 R  56.2  18.7   0:18.68 /bin/bash ./mem2.sh
+  12963 root      20   0  859152 639744   2956 R  43.8  18.6   0:18.65 /bin/bash ./mem.sh
+  13321 root      20   0  275084   4316   3740 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3300 2872 S 0.0 0.1 0:00.05 bash watch2.sh
+-----------------------------------
+02:54:19
+MiB Mem :   3356.8 total,   1903.5 free,   1395.9 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1819.4 avail Mem 
+  12963 root      20   0  882912 663504   2956 R  53.3  19.3   0:19.35 /bin/bash ./mem.sh
+  12964 root      20   0  885816 666324   2872 R  46.7  19.4   0:19.34 /bin/bash ./mem2.sh
+  13334 root      20   0  275084   4540   3964 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222632 3300 2872 S 0.0 0.1 0:00.05 bash watch2.sh
+-----------------------------------
+02:54:20
+MiB Mem :   3356.8 total,   1857.2 free,   1442.1 used,     57.4 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1773.1 avail Mem 
+  12963 root      20   0  906672 687264   2956 R  56.2  20.0   0:20.04 /bin/bash ./mem.sh
+  12964 root      20   0  909312 689820   2872 R  43.8  20.1   0:20.02 /bin/bash ./mem2.sh
+  13347 root      20   0  275084   4340   3760 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:22
+MiB Mem :   3356.8 total,   1812.2 free,   1487.2 used,     57.5 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1728.1 avail Mem 
+  12963 root      20   0  929376 709968   2956 R  52.9  20.7   0:20.70 /bin/bash ./mem.sh
+  12964 root      20   0  932544 713052   2872 R  47.1  20.7   0:20.69 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:23
+MiB Mem :   3356.8 total,   1767.1 free,   1532.2 used,     57.5 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1683.1 avail Mem 
+  12963 root      20   0  952344 732936   2956 R  44.4  21.3   0:21.36 /bin/bash ./mem.sh
+  12964 root      20   0  955776 736284   2872 R  44.4  21.4   0:21.37 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:25
+MiB Mem :   3356.8 total,   1721.6 free,   1577.7 used,     57.5 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1637.5 avail Mem 
+  12964 root      20   0  979140 759780   2872 R  52.9  22.1   0:22.05 /bin/bash ./mem2.sh
+  12963 root      20   0  975444 755904   2956 R  47.1  22.0   0:22.04 /bin/bash ./mem.sh
+  13386 root      20   0  275084   4332   3752 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:26
+MiB Mem :   3356.8 total,   1676.6 free,   1622.8 used,     57.5 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1592.5 avail Mem 
+  12963 root      20   0  998676 779136   2956 R  47.1  22.7   0:22.71 /bin/bash ./mem.sh
+  12964 root      20   0 1001844 782220   2872 R  47.1  22.8   0:22.71 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:27
+MiB Mem :   3356.8 total,   1630.8 free,   1668.5 used,     57.5 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1546.7 avail Mem 
+  12963 root      20   0 1022304 802896   2956 R  56.2  23.4   0:23.40 /bin/bash ./mem.sh
+  12964 root      20   0 1025340 805716   2872 R  43.8  23.4   0:23.39 /bin/bash ./mem2.sh
+  13412 root      20   0  275084   4568   3992 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:29
+MiB Mem :   3356.8 total,   1575.4 free,   1722.8 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1491.9 avail Mem 
+  12963 root      20   0 1049496 830088   2956 R  20.9  24.1   0:24.20 /bin/bash ./mem.sh
+  12964 root      20   0 1052400 832908   2872 R  14.0  24.2   0:24.19 /bin/bash ./mem2.sh
+  13425 root      20   0  275084   4508   3932 R   2.3   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:30
+MiB Mem :   3356.8 total,   1530.4 free,   1767.8 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1446.9 avail Mem 
+  12963 root      20   0 1072728 853320   2956 R  53.3  24.8   0:24.86 /bin/bash ./mem.sh
+  12964 root      20   0 1075632 856140   2872 R  40.0  24.9   0:24.86 /bin/bash ./mem2.sh
+  13440 root      20   0  275084   4508   3928 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:32
+MiB Mem :   3356.8 total,   1485.1 free,   1813.1 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1401.6 avail Mem 
+  12964 root      20   0 1099260 879900   2872 R  50.0  25.6   0:25.55 /bin/bash ./mem2.sh
+  12963 root      20   0 1095564 876024   2956 R  43.8  25.5   0:25.53 /bin/bash ./mem.sh
+  13453 root      20   0  275084   4464   3884 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.06 bash watch2.sh
+-----------------------------------
+02:54:33
+MiB Mem :   3356.8 total,   1439.3 free,   1858.8 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1355.8 avail Mem 
+  12963 root      20   0 1119192 899784   2956 R  47.1  26.2   0:26.22 /bin/bash ./mem.sh
+  12964 root      20   0 1122624 903132   2872 R  47.1  26.3   0:26.22 /bin/bash ./mem2.sh
+  13466 root      20   0  275084   4544   3968 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222740 3312 2872 S 0.0 0.1 0:00.07 bash watch2.sh
+-----------------------------------
+02:54:35
+MiB Mem :   3356.8 total,   1394.5 free,   1903.6 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1311.1 avail Mem 
+  12964 root      20   0 1145856 926364   2872 R  50.0  26.9   0:26.90 /bin/bash ./mem2.sh
+  12963 root      20   0 1141896 922488   2956 R  43.8  26.8   0:26.89 /bin/bash ./mem.sh
+  13479 root      20   0  275084   4496   3920 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.07 bash watch2.sh
+-----------------------------------
+02:54:36
+MiB Mem :   3356.8 total,   1348.0 free,   1950.1 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1264.5 avail Mem 
+  12964 root      20   0 1169616 950124   2872 R  50.0  27.6   0:27.59 /bin/bash ./mem2.sh
+  12963 root      20   0 1165392 945984   2956 R  43.8  27.5   0:27.57 /bin/bash ./mem.sh
+  13492 root      20   0  275084   4576   4000 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.07 bash watch2.sh
+-----------------------------------
+02:54:37
+MiB Mem :   3356.8 total,   1304.2 free,   1993.9 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1220.7 avail Mem 
+  12963 root      20   0 1188228 968688   2956 R  47.1  28.2   0:28.25 /bin/bash ./mem.sh
+  12964 root      20   0 1191660 972036   2872 R  47.1  28.3   0:28.25 /bin/bash ./mem2.sh
+  13505 root      20   0  275084   4432   3852 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.07 bash watch2.sh
+-----------------------------------
+02:54:39
+MiB Mem :   3356.8 total,   1257.7 free,   2040.5 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1174.2 avail Mem 
+  12963 root      20   0 1212120 992712   2956 R  50.0  28.9   0:28.93 /bin/bash ./mem.sh
+  12964 root      20   0 1214760 995268   2872 R  43.8  29.0   0:28.91 /bin/bash ./mem2.sh
+     26 root      39  19       0      0      0 S   6.2   0.0   0:00.44 [khugepaged]
+  13518 root      20   0  275084   4332   3756 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.07 bash watch2.sh
+-----------------------------------
+02:54:40
+MiB Mem :   3356.8 total,   1213.2 free,   2085.0 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1129.7 avail Mem 
+  12963 root      20   0 1234692 991.4m   2956 R  47.1  29.5   0:29.59 /bin/bash ./mem.sh
+  12964 root      20   0 1238388 994.9m   2872 R  47.1  29.6   0:29.59 /bin/bash ./mem2.sh
+  13531 root      20   0  275084   4488   3912 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.07 bash watch2.sh
+-----------------------------------
+02:54:42
+MiB Mem :   3356.8 total,   1167.9 free,   2130.3 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1084.4 avail Mem 
+  12964 root      20   0 1261224   1.0g   2872 R  52.9  30.3   0:30.27 /bin/bash ./mem2.sh
+  12963 root      20   0 1258056   1.0g   2956 R  47.1  30.2   0:30.28 /bin/bash ./mem.sh
+  13544 root      20   0  275084   4544   3968 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.08 bash watch2.sh
+-----------------------------------
+02:54:43
+MiB Mem :   3356.8 total,   1121.4 free,   2176.8 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.   1037.9 avail Mem 
+  12964 root      20   0 1284720   1.0g   2872 R  50.0  31.0   0:30.96 /bin/bash ./mem2.sh
+  12963 root      20   0 1282212   1.0g   2956 R  43.8  30.9   0:30.96 /bin/bash ./mem.sh
+  13557 root      20   0  275084   4540   3964 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.08 bash watch2.sh
+-----------------------------------
+02:54:44
+MiB Mem :   3356.8 total,   1076.3 free,   2221.8 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    992.9 avail Mem 
+  12963 root      20   0 1305048   1.0g   2956 R  47.1  31.6   0:31.63 /bin/bash ./mem.sh
+  12964 root      20   0 1307820   1.0g   2872 R  41.2  31.7   0:31.62 /bin/bash ./mem2.sh
+  13570 root      20   0  275084   4500   3924 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.08 bash watch2.sh
+-----------------------------------
+02:54:46
+MiB Mem :   3356.8 total,   1030.1 free,   2268.1 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    946.6 avail Mem 
+  12963 root      20   0 1328808   1.1g   2956 R  52.9  32.3   0:32.32 /bin/bash ./mem.sh
+  12964 root      20   0 1331316   1.1g   2872 R  47.1  32.3   0:32.31 /bin/bash ./mem2.sh
+  13583 root      20   0  275084   4560   3984 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.08 bash watch2.sh
+-----------------------------------
+02:54:47
+MiB Mem :   3356.8 total,    984.8 free,   2313.4 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    901.3 avail Mem 
+  12963 root      20   0 1351776   1.1g   2956 R  47.1  32.9   0:32.99 /bin/bash ./mem.sh
+  12964 root      20   0 1354812   1.1g   2872 R  47.1  33.0   0:32.99 /bin/bash ./mem2.sh
+  13596 root      20   0  275084   4344   3764 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.08 bash watch2.sh
+-----------------------------------
+02:54:49
+MiB Mem :   3356.8 total,    939.0 free,   2359.1 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    855.5 avail Mem 
+  12964 root      20   0 1378440   1.1g   2872 R  47.1  33.7   0:33.68 /bin/bash ./mem2.sh
+  12963 root      20   0 1374612   1.1g   2956 R  41.2  33.6   0:33.66 /bin/bash ./mem.sh
+  13609 root      20   0  275084   4388   3808 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.09 bash watch2.sh
+-----------------------------------
+02:54:50
+MiB Mem :   3356.8 total,    894.2 free,   2403.9 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    810.8 avail Mem 
+  12963 root      20   0 1397580   1.1g   2956 R  44.4  34.3   0:34.34 /bin/bash ./mem.sh
+  12964 root      20   0 1401276   1.1g   2872 R  44.4  34.4   0:34.34 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.09 bash watch2.sh
+-----------------------------------
+02:54:51
+MiB Mem :   3356.8 total,    848.0 free,   2450.2 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    764.5 avail Mem 
+  12963 root      20   0 1421076   1.1g   2956 R  47.1  35.0   0:35.03 /bin/bash ./mem.sh
+  12964 root      20   0 1425168   1.1g   2872 R  47.1  35.1   0:35.04 /bin/bash ./mem2.sh
+  13637 root      20   0  275084   4520   3940 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.09 bash watch2.sh
+-----------------------------------
+02:54:53
+MiB Mem :   3356.8 total,    802.7 free,   2495.5 used,     58.6 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    719.2 avail Mem 
+  12963 root      20   0 1444572   1.2g   2956 R  50.0  35.6   0:35.71 /bin/bash ./mem.sh
+  12964 root      20   0 1448004   1.2g   2872 R  50.0  35.7   0:35.71 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.09 bash watch2.sh
+-----------------------------------
+02:54:54
+MiB Mem :   3356.8 total,    757.1 free,   2541.0 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    673.7 avail Mem 
+  12964 root      20   0 1471368   1.2g   2872 R  47.1  36.4   0:36.39 /bin/bash ./mem2.sh
+  12963 root      20   0 1467804   1.2g   2956 R  41.2  36.3   0:36.39 /bin/bash ./mem.sh
+  13663 root      20   0  275084   4336   3760 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.09 bash watch2.sh
+-----------------------------------
+02:54:56
+MiB Mem :   3356.8 total,    714.1 free,   2584.1 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    630.6 avail Mem 
+  12963 root      20   0 1489452   1.2g   2956 R  47.1  36.9   0:37.06 /bin/bash ./mem.sh
+  12964 root      20   0 1493412   1.2g   2872 R  47.1  37.1   0:37.08 /bin/bash ./mem2.sh
+  13676 root      20   0  275084   4328   3752 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.10 bash watch2.sh
+-----------------------------------
+02:54:57
+MiB Mem :   3356.8 total,    669.8 free,   2628.3 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    586.3 avail Mem 
+  12964 root      20   0 1516116   1.2g   2872 R  47.1  37.7   0:37.75 /bin/bash ./mem2.sh
+  12963 root      20   0 1512156   1.2g   2956 R  41.2  37.6   0:37.74 /bin/bash ./mem.sh
+  13689 root      20   0  275084   4440   3860 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.10 bash watch2.sh
+-----------------------------------
+02:54:58
+MiB Mem :   3356.8 total,    627.0 free,   2671.2 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    543.5 avail Mem 
+  12963 root      20   0 1534200   1.3g   2956 R  44.4  38.3   0:38.42 /bin/bash ./mem.sh
+  12964 root      20   0 1538028   1.3g   2872 R  38.9  38.4   0:38.42 /bin/bash ./mem2.sh
+  13702 root      20   0  275084   4492   3916 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.10 bash watch2.sh
+-----------------------------------
+02:55:00
+MiB Mem :   3356.8 total,    582.4 free,   2715.7 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    499.0 avail Mem 
+  12963 root      20   0 1556904   1.3g   2956 R  53.3  38.9   0:39.10 /bin/bash ./mem.sh
+  12964 root      20   0 1560732   1.3g   2872 R  46.7  39.0   0:39.09 /bin/bash ./mem2.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.10 bash watch2.sh
+-----------------------------------
+02:55:01
+MiB Mem :   3356.8 total,    536.9 free,   2761.2 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    453.4 avail Mem 
+  12964 root      20   0 1583700   1.3g   2872 R  47.1  39.7   0:39.78 /bin/bash ./mem2.sh
+  12963 root      20   0 1580268   1.3g   2956 R  41.2  39.6   0:39.77 /bin/bash ./mem.sh
+  13728 root      20   0  275084   4544   3968 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3312 2872 S 0.0 0.1 0:00.10 bash watch2.sh
+-----------------------------------
+02:55:03
+MiB Mem :   3356.8 total,    496.8 free,   2801.3 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    413.3 avail Mem 
+  12963 root      20   0 1600332   1.3g   2956 R  50.0  40.2   0:40.45 /bin/bash ./mem.sh
+  12964 root      20   0 1604556   1.3g   2872 R  43.8  40.3   0:40.46 /bin/bash ./mem2.sh
+  13741 root      20   0  275084   4436   3856 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.11 bash watch2.sh
+-----------------------------------
+02:55:04
+MiB Mem :   3356.8 total,    455.9 free,   2842.2 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    372.5 avail Mem 
+  12964 root      20   0 1625544   1.3g   2872 R  50.0  40.9   0:41.12 /bin/bash ./mem2.sh
+  12963 root      20   0 1621320   1.3g   2956 R  43.8  40.8   0:41.11 /bin/bash ./mem.sh
+  13754 root      20   0  275084   4500   3924 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.11 bash watch2.sh
+-----------------------------------
+02:55:05
+MiB Mem :   3356.8 total,    414.1 free,   2884.0 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    330.6 avail Mem 
+  12963 root      20   0 1642836   1.4g   2956 R  40.0  41.4   0:41.79 /bin/bash ./mem.sh
+  12964 root      20   0 1646664   1.4g   2872 R  40.0  41.5   0:41.79 /bin/bash ./mem2.sh
+  13767 root      20   0  275084   4548   3968 R   5.0   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.11 bash watch2.sh
+-----------------------------------
+02:55:07
+MiB Mem :   3356.8 total,    371.3 free,   2926.8 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    287.8 avail Mem 
+  12964 root      20   0 1668972   1.4g   2872 R  50.0  42.2   0:42.48 /bin/bash ./mem2.sh
+  12963 root      20   0 1664484   1.4g   2956 R  38.9  42.0   0:42.47 /bin/bash ./mem.sh
+  13780 root      20   0  275084   4552   3976 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.11 bash watch2.sh
+-----------------------------------
+02:55:08
+MiB Mem :   3356.8 total,    329.9 free,   2968.2 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    246.5 avail Mem 
+  12964 root      20   0 1689696   1.4g   2872 R  52.9  42.8   0:43.15 /bin/bash ./mem2.sh
+  12963 root      20   0 1685604   1.4g   2956 R  47.1  42.7   0:43.14 /bin/bash ./mem.sh
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.11 bash watch2.sh
+-----------------------------------
+02:55:10
+MiB Mem :   3356.8 total,    289.1 free,   3009.0 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    205.6 avail Mem 
+  12963 root      20   0 1706196   1.4g   2956 R  41.2  43.3   0:43.80 /bin/bash ./mem.sh
+  12964 root      20   0 1710948   1.4g   2872 R  41.2  43.4   0:43.81 /bin/bash ./mem2.sh
+     26 root      39  19       0      0      0 S   5.9   0.0   0:00.45 [khugepaged]
+  13808 root      20   0  275084   4492   3912 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.12 bash watch2.sh
+-----------------------------------
+02:55:11
+MiB Mem :   3356.8 total,    247.5 free,   3050.6 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    164.0 avail Mem 
+  12963 root      20   0 1727844   1.4g   2956 R  53.3  43.9   0:44.49 /bin/bash ./mem.sh
+  12964 root      20   0 1731936   1.4g   2872 R  40.0  44.0   0:44.47 /bin/bash ./mem2.sh
+  13821 root      20   0  275084   4512   3936 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.12 bash watch2.sh
+-----------------------------------
+02:55:12
+MiB Mem :   3356.8 total,    205.6 free,   3092.4 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.    122.2 avail Mem 
+  12964 root      20   0 1753716   1.5g   2872 R  56.2  44.6   0:45.17 /bin/bash ./mem2.sh
+  12963 root      20   0 1748964   1.5g   2956 R  43.8  44.5   0:45.15 /bin/bash ./mem.sh
+  13834 root      20   0  275084   4556   3980 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.12 bash watch2.sh
+-----------------------------------
+02:55:14
+MiB Mem :   3356.8 total,    164.1 free,   3134.0 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.     80.6 avail Mem 
+  12963 root      20   0 1770084   1.5g   2956 R  53.3  45.1   0:45.82 /bin/bash ./mem.sh
+  12964 root      20   0 1774836   1.5g   2872 R  53.3  45.2   0:45.83 /bin/bash ./mem2.sh
+  13847 root      20   0  275084   4500   3924 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.12 bash watch2.sh
+-----------------------------------
+02:55:15
+MiB Mem :   3356.8 total,    122.2 free,   3175.9 used,     58.7 buff/cache
+MiB Swap:    820.0 total,    733.8 free,     86.2 used.     38.8 avail Mem 
+  12963 root      20   0 1791732   1.5g   2956 R  52.9  45.7   0:46.50 /bin/bash ./mem.sh
+  12964 root      20   0 1795956   1.5g   2872 R  47.1  45.9   0:46.50 /bin/bash ./mem2.sh
+  13860 root      20   0  275084   4560   3980 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   3172   2072 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 3324 2872 S 0.0 0.1 0:00.13 bash watch2.sh
+-----------------------------------
+02:55:18
+MiB Mem :   3356.8 total,    133.0 free,   3172.8 used,     51.1 buff/cache
+MiB Swap:    820.0 total,    663.8 free,    156.2 used.     45.8 avail Mem 
+  12964 root      20   0 1827372   1.5g   2524 R  17.4  46.7   0:47.48 /bin/bash ./mem2.sh
+  12963 root      20   0 1821960   1.5g   2548 R  15.2  44.6   0:47.46 /bin/bash ./mem.sh
+      1 root      20   0  175184   2308   1424 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222732 2852 2528 S 0.0 0.1 0:00.13 bash watch2.sh
+-----------------------------------
+02:55:20
+MiB Mem :   3356.8 total,    112.1 free,   3192.2 used,     52.5 buff/cache
+MiB Swap:    820.0 total,    612.4 free,    207.6 used.     25.6 avail Mem 
+  12963 root      20   0 1853640   1.5g   2548 R  50.0  44.3   0:48.47 /bin/bash ./mem.sh
+  12964 root      20   0 1858788   1.6g   2524 R  37.5  47.3   0:48.48 /bin/bash ./mem2.sh
+     69 root      20   0       0      0      0 D  12.5   0.0   0:29.05 [kswapd0]
+  13886 root      20   0  275084   4484   3904 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2244   1360 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+12962 root 20 0 222732 2860 2528 S 0.0 0.1 0:00.14 bash watch2.sh
+-----------------------------------
+02:55:21
+MiB Mem :   3356.8 total,    118.1 free,   3186.7 used,     52.0 buff/cache
+MiB Swap:    820.0 total,    568.5 free,    251.5 used.     31.3 avail Mem 
+  12963 root      20   0 1876344   1.5g   2388 R  47.1  44.3   0:49.18 /bin/bash ./mem.sh
+  12964 root      20   0 1881492   1.6g   2352 R  47.1  47.4   0:49.20 /bin/bash ./mem2.sh
+      1 root      20   0  175184   2196   1312 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.14 bash watch2.sh
+-----------------------------------
+02:55:23
+MiB Mem :   3356.8 total,    117.5 free,   3188.1 used,     51.2 buff/cache
+MiB Swap:    820.0 total,    539.2 free,    280.8 used.     30.3 avail Mem 
+  12963 root      20   0 1896408   1.5g   2388 R  41.2  44.4   0:49.83 /bin/bash ./mem.sh
+  12964 root      20   0 1901556   1.6g   2352 R  35.3  47.5   0:49.85 /bin/bash ./mem2.sh
+  13137 root      20   0  275204   4284   3512 S  11.8   0.1   0:00.13 top -c
+     69 root      20   0       0      0      0 S   5.9   0.0   0:29.12 [kswapd0]
+  12961 root      20   0       0      0      0 I   5.9   0.0   0:00.03 [kworker/0:2-events]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.14 bash watch2.sh
+-----------------------------------
+02:55:24
+MiB Mem :   3356.8 total,    123.0 free,   3182.2 used,     51.6 buff/cache
+MiB Swap:    820.0 total,    487.3 free,    332.7 used.     36.0 avail Mem 
+  12963 root      20   0 1919376   1.5g   2388 R  46.7  44.3   0:50.52 /bin/bash ./mem.sh
+  12964 root      20   0 1924524   1.6g   2352 R  33.3  47.4   0:50.53 /bin/bash ./mem2.sh
+     69 root      20   0       0      0      0 S  13.3   0.0   0:29.17 [kswapd0]
+  13925 root      20   0  275084   4388   3808 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2196   1312 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.14 bash watch2.sh
+-----------------------------------
+02:55:26
+MiB Mem :   3356.8 total,    113.2 free,   3192.6 used,     51.0 buff/cache
+MiB Swap:    820.0 total,    448.9 free,    371.1 used.     25.9 avail Mem 
+  12963 root      20   0 1941420   1.5g   2388 R  50.0  44.4   0:51.17 /bin/bash ./mem.sh
+  12964 root      20   0 1946304   1.6g   2352 R  43.8  47.5   0:51.18 /bin/bash ./mem2.sh
+  13938 root      20   0  275084   4352   3776 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2164   1280 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.14 bash watch2.sh
+-----------------------------------
+02:55:27
+MiB Mem :   3356.8 total,     95.6 free,   3210.5 used,     50.7 buff/cache
+MiB Swap:    820.0 total,    434.6 free,    385.4 used.      8.2 avail Mem 
+  12964 root      20   0 1966500   1.6g   2352 R  47.1  47.9   0:51.85 /bin/bash ./mem2.sh
+  12963 root      20   0 1961352   1.5g   2388 R  41.2  44.8   0:51.83 /bin/bash ./mem.sh
+  13951 root      20   0  275084   4584   4004 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2148   1264 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.15 bash watch2.sh
+-----------------------------------
+02:55:29
+MiB Mem :   3356.8 total,    102.0 free,   3204.8 used,     50.0 buff/cache
+MiB Swap:    820.0 total,    381.8 free,    438.2 used.     14.2 avail Mem 
+  12963 root      20   0 1985112   1.5g   2388 R  53.3  44.7   0:52.54 /bin/bash ./mem.sh
+  12964 root      20   0 1990260   1.6g   2352 R  46.7  47.8   0:52.55 /bin/bash ./mem2.sh
+  13964 root      20   0  275084   4524   3944 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2092   1208 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.15 bash watch2.sh
+-----------------------------------
+02:55:30
+MiB Mem :   3356.8 total,    124.7 free,   3180.5 used,     51.6 buff/cache
+MiB Swap:    820.0 total,    310.9 free,    509.1 used.     37.7 avail Mem 
+  12963 root      20   0 2008212   1.5g   2388 R  56.2  44.3   0:53.22 /bin/bash ./mem.sh
+  12964 root      20   0 2013228   1.6g   2352 R  37.5  47.4   0:53.22 /bin/bash ./mem2.sh
+  13979 root      20   0  275084   4452   3872 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2048   1168 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.15 bash watch2.sh
+-----------------------------------
+02:55:31
+MiB Mem :   3356.8 total,    114.3 free,   3191.8 used,     50.7 buff/cache
+MiB Swap:    820.0 total,    280.2 free,    539.8 used.     26.9 avail Mem 
+  12963 root      20   0 2029860   1.5g   2388 R  50.0  44.5   0:53.86 /bin/bash ./mem.sh
+  12964 root      20   0 2035800   1.6g   2352 R  50.0  47.6   0:53.89 /bin/bash ./mem2.sh
+  13992 root      20   0  275084   4580   4004 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2044   1164 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.15 bash watch2.sh
+-----------------------------------
+02:55:33
+MiB Mem :   3356.8 total,    106.0 free,   3200.9 used,     49.9 buff/cache
+MiB Swap:    820.0 total,    244.3 free,    575.7 used.     18.2 avail Mem 
+  12963 root      20   0 2052564   1.5g   2388 R  47.1  44.6   0:54.51 /bin/bash ./mem.sh
+  12964 root      20   0 2057712   1.6g   2352 R  41.2  47.7   0:54.52 /bin/bash ./mem2.sh
+  14005 root      20   0  275084   4476   3900 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2020   1144 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.15 bash watch2.sh
+-----------------------------------
+02:55:34
+MiB Mem :   3356.8 total,    103.7 free,   3204.4 used,     48.7 buff/cache
+MiB Swap:    820.0 total,    198.4 free,    621.6 used.     15.3 avail Mem 
+  12963 root      20   0 2073948   1.5g   2388 R  43.8  44.5   0:55.14 /bin/bash ./mem.sh
+  12964 root      20   0 2079756   1.6g   2352 R  43.8  47.6   0:55.15 /bin/bash ./mem2.sh
+     69 root      20   0       0      0      0 R   6.2   0.0   0:29.46 [kswapd0]
+  14018 root      20   0  275084   4540   3964 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   2000   1124 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.16 bash watch2.sh
+-----------------------------------
+02:55:36
+MiB Mem :   3356.8 total,    110.4 free,   3198.4 used,     48.0 buff/cache
+MiB Swap:    820.0 total,    157.1 free,    662.9 used.     21.7 avail Mem 
+  12964 root      20   0 2101932   1.6g   2352 R  50.0  47.7   0:55.81 /bin/bash ./mem2.sh
+  12963 root      20   0 2095728   1.5g   2388 R  43.8  44.5   0:55.77 /bin/bash ./mem.sh
+  14031 root      20   0  275084   4388   3812 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   1996   1120 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.16 bash watch2.sh
+-----------------------------------
+02:55:37
+MiB Mem :   3356.8 total,    107.2 free,   3202.1 used,     47.5 buff/cache
+MiB Swap:    820.0 total,    113.6 free,    706.4 used.     18.2 avail Mem 
+  12964 root      20   0 2123712   1.6g   2352 R  44.4  47.7   0:56.45 /bin/bash ./mem2.sh
+  12963 root      20   0 2118036   1.5g   2388 R  38.9  44.6   0:56.43 /bin/bash ./mem.sh
+  14044 root      20   0  275084   4476   3900 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   1988   1112 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.16 bash watch2.sh
+-----------------------------------
+02:55:38
+MiB Mem :   3356.8 total,    101.3 free,   3208.7 used,     46.8 buff/cache
+MiB Swap:    820.0 total,     79.8 free,    740.2 used.     12.0 avail Mem 
+  12964 root      20   0 2145756   1.6g   2352 R  53.3  47.8   0:57.09 /bin/bash ./mem2.sh
+  12963 root      20   0 2139948   1.5g   2388 R  46.7  44.7   0:57.07 /bin/bash ./mem.sh
+      1 root      20   0  175184   1968   1092 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.16 bash watch2.sh
+-----------------------------------
+02:55:40
+MiB Mem :   3356.8 total,    110.7 free,   3200.3 used,     45.8 buff/cache
+MiB Swap:    820.0 total,     27.9 free,    792.1 used.     20.9 avail Mem 
+  12964 root      20   0 2167668   1.6g   2352 R  46.7  47.6   0:57.73 /bin/bash ./mem2.sh
+  12963 root      20   0 2161464   1.5g   2388 R  40.0  44.6   0:57.70 /bin/bash ./mem.sh
+     69 root      20   0       0      0      0 R  13.3   0.0   0:29.66 [kswapd0]
+  14070 root      20   0  275084   4492   3912 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   1936   1060 S   0.0   0.1   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+12962 root 20 0 222732 2704 2372 S 0.0 0.1 0:00.16 bash watch2.sh
+-----------------------------------
+02:55:43
+MiB Mem :   3356.8 total,   3209.4 free,     97.6 used,     49.8 buff/cache
+MiB Swap:    820.0 total,    731.4 free,     88.6 used.   3121.6 avail Mem 
+  14083 root      20   0  275084   4336   3760 R   5.3   0.1   0:00.03 top -bc -w 200 -n 1
+      1 root      20   0  175184    872      0 S   0.0   0.0   0:01.59 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+[15570.911452] Out of memory: Killed process 10472 (bash) total-vm:4175256kB, anon-rss:3201432kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:7808kB oom_score_adj:0
