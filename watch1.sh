@@ -23,4 +23,4 @@ do
   sleep 1
 done >> $log
 
-sudo dmesg | grep "mem.sh"
+sudo dmesg | grep "Killed"

@@ -9,6 +9,7 @@ date +%H:%M:%S
 echo "$top_table" | head -n 5 | tail -n 2
 # # 5 строк процессов
 # echo "$top_table" | head -n 12 | tail -n 5
-
+echo "$$"
+echo "$top_table" | grep "$$"
 
 
