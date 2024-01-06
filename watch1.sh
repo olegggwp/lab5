@@ -8,7 +8,7 @@ echo "starting logging" > $log
 
 while true 
 do
-  top_table=$(top -bc --width=200 -n 1)
+  top_table=$(top -bc -w 200 -n 1)
   info=$(grep "mem.bash" <<< $top_table)
   if [[ -z $info ]]; 
   then break; 
