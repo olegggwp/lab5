@@ -9,7 +9,7 @@ echo "starting logging" > $log
 while true 
 do
   top_table=$(top -bc -w 200 -n 1)
-  info=$(grep "mem.sh" <<< "$top_table")
+  info=$(grep "mem.sh" <<< $top_table)
   if [[ -z $info ]]; 
   then break; 
   fi
