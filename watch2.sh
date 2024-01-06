@@ -17,7 +17,7 @@ do
   # 5 строк процессов
   echo "$top_table" | head -n 12 | tail -n 5
 
-  if [[ -z $(grep "mem[2]*.sh" <<< $top_table) ]]; 
+  if [[ -z $(grep "mem" <<< $top_table) ]]; 
   then break; 
   fi
 

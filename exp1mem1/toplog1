@@ -1,0 +1,920 @@
+starting logging
+03:53:20
+MiB Mem :   3356.8 total,   3127.8 free,    107.6 used,    121.4 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   3075.7 avail Mem 
+  14531 root      20   0  227400   7952   2912 R  73.9   0.2   0:00.19 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 227400 7952 2912 R 73.9 0.2 0:00.19 bash mem.sh
+-----------------------------------
+03:53:22
+MiB Mem :   3356.8 total,   3085.7 free,    149.6 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   3033.6 avail Mem 
+  14531 root      20   0  270168  50720   2912 R  99.9   1.5   0:01.45 bash mem.sh
+  14543 root      20   0  275084   4524   3944 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 270168 50720 2912 R 99.9 1.5 0:01.45 bash mem.sh
+-----------------------------------
+03:53:23
+MiB Mem :   3356.8 total,   3043.4 free,    191.9 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2991.3 avail Mem 
+  14531 root      20   0  313332  93752   2912 R  94.4   2.7   0:02.69 bash mem.sh
+  14554 root      20   0  275084   4564   3984 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 313332 93752 2912 R 94.4 2.7 0:02.69 bash mem.sh
+-----------------------------------
+03:53:24
+MiB Mem :   3356.8 total,   3002.5 free,    232.8 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2950.5 avail Mem 
+  14531 root      20   0  355176 135728   2912 R  99.9   3.9   0:03.92 bash mem.sh
+  14565 root      20   0  275084   4512   3932 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 355176 135728 2912 R 99.9 3.9 0:03.92 bash mem.sh
+-----------------------------------
+03:53:25
+MiB Mem :   3356.8 total,   2960.0 free,    275.4 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2907.9 avail Mem 
+  14531 root      20   0  398604 179024   2912 R  94.4   5.2   0:05.17 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 398604 179024 2912 R 94.4 5.2 0:05.17 bash mem.sh
+-----------------------------------
+03:53:27
+MiB Mem :   3356.8 total,   2918.8 free,    316.5 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2866.8 avail Mem 
+  14531 root      20   0  439656 220208   2912 R  99.9   6.4   0:06.38 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 439656 220208 2912 R 99.9 6.4 0:06.38 bash mem.sh
+-----------------------------------
+03:53:28
+MiB Mem :   3356.8 total,   2878.0 free,    357.3 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2825.9 avail Mem 
+  14531 root      20   0  481632 262184   2912 R  99.9   7.6   0:07.59 bash mem.sh
+  14599 root      20   0  275084   4508   3928 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 481632 262184 2912 R 99.9 7.6 0:07.59 bash mem.sh
+-----------------------------------
+03:53:29
+MiB Mem :   3356.8 total,   2836.6 free,    398.6 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2784.6 avail Mem 
+  14531 root      20   0  523740 304160   2912 R  94.1   8.8   0:08.81 bash mem.sh
+  14610 root      20   0  275084   4576   4000 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 523740 304160 2912 R 94.1 8.8 0:08.81 bash mem.sh
+-----------------------------------
+03:53:30
+MiB Mem :   3356.8 total,   2795.1 free,    440.2 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2743.0 avail Mem 
+  14531 root      20   0  566112 346664   2912 R  88.9  10.1   0:10.04 bash mem.sh
+  14621 root      20   0  275084   4388   3812 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 566112 346664 2912 R 88.9 10.1 0:10.04 bash mem.sh
+-----------------------------------
+03:53:32
+MiB Mem :   3356.8 total,   2752.7 free,    482.6 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2700.7 avail Mem 
+  14531 root      20   0  609540 389960   2912 R  99.9  11.3   0:11.30 bash mem.sh
+  14632 root      20   0  275084   4428   3848 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 609540 389960 2912 R 99.9 11.3 0:11.30 bash mem.sh
+-----------------------------------
+03:53:33
+MiB Mem :   3356.8 total,   2711.1 free,    524.1 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2659.1 avail Mem 
+  14531 root      20   0  651912 432464   2912 R  99.9  12.6   0:12.52 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 651912 432464 2912 R 99.9 12.6 0:12.52 bash mem.sh
+-----------------------------------
+03:53:34
+MiB Mem :   3356.8 total,   2669.3 free,    566.0 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2617.2 avail Mem 
+  14531 root      20   0  694680 475232   2912 R  93.8  13.8   0:13.76 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 694680 475232 2912 R 93.8 13.8 0:13.76 bash mem.sh
+-----------------------------------
+03:53:36
+MiB Mem :   3356.8 total,   2628.2 free,    607.1 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2576.1 avail Mem 
+  14531 root      20   0  736656 517208   2912 R  87.5  15.0   0:14.97 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 736656 517208 2912 R 87.5 15.0 0:14.97 bash mem.sh
+-----------------------------------
+03:53:37
+MiB Mem :   3356.8 total,   2586.1 free,    649.2 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2534.1 avail Mem 
+  14531 root      20   0  779952 560504   2912 R  99.9  16.3   0:16.24 bash mem.sh
+  14676 root      20   0  275084   4564   3988 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 779952 560504 2912 R 99.9 16.3 0:16.24 bash mem.sh
+-----------------------------------
+03:53:38
+MiB Mem :   3356.8 total,   2545.3 free,    690.0 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2493.2 avail Mem 
+  14531 root      20   0  821004 601424   2912 R  99.9  17.5   0:17.44 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 821004 601424 2912 R 99.9 17.5 0:17.44 bash mem.sh
+-----------------------------------
+03:53:39
+MiB Mem :   3356.8 total,   2503.9 free,    731.3 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2451.9 avail Mem 
+  14531 root      20   0  863640 644192   2912 R  94.1  18.7   0:18.66 bash mem.sh
+  14701 root      20   0  275084   4428   3852 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 863640 644192 2912 R 94.1 18.7 0:18.66 bash mem.sh
+-----------------------------------
+03:53:41
+MiB Mem :   3356.8 total,   2464.1 free,    771.2 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2412.0 avail Mem 
+  14531 root      20   0  904296 684848   2912 R  99.9  19.9   0:19.86 bash mem.sh
+  14712 root      20   0  275084   4508   3932 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 904296 684848 2912 R 99.9 19.9 0:19.86 bash mem.sh
+-----------------------------------
+03:53:42
+MiB Mem :   3356.8 total,   2423.9 free,    811.3 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2371.9 avail Mem 
+  14531 root      20   0  946140 726560   2912 R  99.9  21.1   0:21.08 bash mem.sh
+  14723 root      20   0  275084   4508   3928 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 946140 726560 2912 R 99.9 21.1 0:21.08 bash mem.sh
+-----------------------------------
+03:53:43
+MiB Mem :   3356.8 total,   2383.6 free,    851.7 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2331.5 avail Mem 
+  14531 root      20   0  987588 768008   2912 R  99.9  22.3   0:22.29 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 987588 768008 2912 R 99.9 22.3 0:22.29 bash mem.sh
+-----------------------------------
+03:53:44
+MiB Mem :   3356.8 total,   2340.8 free,    894.5 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2288.7 avail Mem 
+  14531 root      20   0 1030488 811040   2912 R  94.4  23.6   0:23.54 bash mem.sh
+  14746 root      20   0  275084   4584   4004 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1030488 811040 2912 R 94.4 23.6 0:23.54 bash mem.sh
+-----------------------------------
+03:53:46
+MiB Mem :   3356.8 total,   2299.9 free,    935.3 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2247.9 avail Mem 
+  14531 root      20   0 1072332 852752   2912 R  99.9  24.8   0:24.77 bash mem.sh
+  14757 root      20   0  275084   4512   3936 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1072332 852752 2912 R 99.9 24.8 0:24.77 bash mem.sh
+-----------------------------------
+03:53:47
+MiB Mem :   3356.8 total,   2257.8 free,    977.4 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2205.8 avail Mem 
+  14531 root      20   0 1115100 895520   2912 R  94.4  26.1   0:26.00 bash mem.sh
+  14768 root      20   0  275084   4436   3856 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1115100 895520 2912 R 94.4 26.1 0:26.00 bash mem.sh
+-----------------------------------
+03:53:48
+MiB Mem :   3356.8 total,   2216.5 free,   1018.8 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2164.4 avail Mem 
+  14531 root      20   0 1157340 938024   2912 R  89.5  27.3   0:27.24 bash mem.sh
+  14779 root      20   0  275084   4512   3936 R   5.3   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1157340 938024 2912 R 89.5 27.3 0:27.24 bash mem.sh
+-----------------------------------
+03:53:49
+MiB Mem :   3356.8 total,   2174.9 free,   1060.4 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2122.9 avail Mem 
+  14531 root      20   0 1199976 980528   2912 R  94.4  28.5   0:28.48 bash mem.sh
+  14790 root      20   0  275084   4508   3932 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1199976 980528 2912 R 94.4 28.5 0:28.48 bash mem.sh
+-----------------------------------
+03:53:51
+MiB Mem :   3356.8 total,   2133.5 free,   1101.7 used,    121.5 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2081.5 avail Mem 
+  14531 root      20   0 1242216 998.8m   2912 R  99.9  29.8   0:29.71 bash mem.sh
+  14801 root      20   0  275084   4496   3916 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1242216 998.8m 2912 R 99.9 29.8 0:29.71 bash mem.sh
+-----------------------------------
+03:53:52
+MiB Mem :   3356.8 total,   2092.7 free,   1142.5 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   2040.7 avail Mem 
+  14531 root      20   0 1283796   1.0g   2912 R  94.1  31.0   0:30.91 bash mem.sh
+  14812 root      20   0  275084   4552   3972 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1283796 1.0g 2912 R 94.1 31.0 0:30.91 bash mem.sh
+-----------------------------------
+03:53:53
+MiB Mem :   3356.8 total,   2050.9 free,   1184.4 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1998.8 avail Mem 
+  14531 root      20   0 1326696   1.1g   2912 R  99.9  32.2   0:32.15 bash mem.sh
+  14823 root      20   0  275084   4404   3824 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1326696 1.1g 2912 R 99.9 32.2 0:32.15 bash mem.sh
+-----------------------------------
+03:53:55
+MiB Mem :   3356.8 total,   2010.3 free,   1225.0 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1958.2 avail Mem 
+  14531 root      20   0 1368408   1.1g   2912 R  99.9  33.4   0:33.37 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 1368408 1.1g 2912 R 99.9 33.4 0:33.37 bash mem.sh
+-----------------------------------
+03:53:56
+MiB Mem :   3356.8 total,   1968.7 free,   1266.6 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1916.6 avail Mem 
+  14531 root      20   0 1410648   1.1g   2912 R  87.5  34.7   0:34.58 bash mem.sh
+  14845 root      20   0  275084   4328   3752 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1410648 1.1g 2912 R 87.5 34.7 0:34.58 bash mem.sh
+-----------------------------------
+03:53:57
+MiB Mem :   3356.8 total,   1927.3 free,   1307.9 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1875.3 avail Mem 
+  14531 root      20   0 1453020   1.2g   2912 R  99.9  35.9   0:35.82 bash mem.sh
+  14856 root      20   0  275084   4508   3928 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1453020 1.2g 2912 R 99.9 35.9 0:35.82 bash mem.sh
+-----------------------------------
+03:53:58
+MiB Mem :   3356.8 total,   1886.0 free,   1349.2 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1833.9 avail Mem 
+  14531 root      20   0 1494600   1.2g   2912 R  99.9  37.1   0:37.03 bash mem.sh
+  14700 root      20   0       0      0      0 I   6.2   0.0   0:00.01 [kworker/0:1-events]
+  14869 root      20   0  275084   4576   4000 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+14531 root 20 0 1494600 1.2g 2912 R 99.9 37.1 0:37.03 bash mem.sh
+-----------------------------------
+03:54:00
+MiB Mem :   3356.8 total,   1845.9 free,   1389.4 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1793.8 avail Mem 
+  14531 root      20   0 1535916   1.3g   2912 R  93.8  38.3   0:38.22 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 1535916 1.3g 2912 R 93.8 38.3 0:38.22 bash mem.sh
+-----------------------------------
+03:54:01
+MiB Mem :   3356.8 total,   1804.5 free,   1430.7 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1752.5 avail Mem 
+  14531 root      20   0 1578420   1.3g   2912 R  94.1  39.5   0:39.45 bash mem.sh
+  14891 root      20   0  275084   4528   3948 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1578420 1.3g 2912 R 94.1 39.5 0:39.45 bash mem.sh
+-----------------------------------
+03:54:02
+MiB Mem :   3356.8 total,   1762.7 free,   1472.5 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1710.7 avail Mem 
+  14531 root      20   0 1621188   1.3g   2912 R  99.9  40.8   0:40.69 bash mem.sh
+  14745 root      20   0  275204   5028   4260 S   6.2   0.1   0:00.03 top -c
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1621188 1.3g 2912 R 99.9 40.8 0:40.69 bash mem.sh
+-----------------------------------
+03:54:03
+MiB Mem :   3356.8 total,   1720.6 free,   1514.6 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1668.6 avail Mem 
+  14531 root      20   0 1664220   1.4g   2912 R  99.9  42.0   0:41.93 bash mem.sh
+  14913 root      20   0  275084   4588   4008 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1664220 1.4g 2912 R 99.9 42.0 0:41.93 bash mem.sh
+-----------------------------------
+03:54:05
+MiB Mem :   3356.8 total,   1678.8 free,   1556.4 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1626.7 avail Mem 
+  14531 root      20   0 1706724   1.4g   2912 R  99.9  43.3   0:43.17 bash mem.sh
+  14924 root      20   0  275084   4480   3904 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1706724 1.4g 2912 R 99.9 43.3 0:43.17 bash mem.sh
+-----------------------------------
+03:54:06
+MiB Mem :   3356.8 total,   1637.7 free,   1597.5 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1585.6 avail Mem 
+  14531 root      20   0 1748964   1.5g   2912 R  99.9  44.5   0:44.39 bash mem.sh
+  14935 root      20   0  275084   4568   3992 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1748964 1.5g 2912 R 99.9 44.5 0:44.39 bash mem.sh
+-----------------------------------
+03:54:07
+MiB Mem :   3356.8 total,   1596.8 free,   1638.4 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1544.8 avail Mem 
+  14531 root      20   0 1790544   1.5g   2912 R  93.8  45.7   0:45.61 bash mem.sh
+  14946 root      20   0  275084   4416   3840 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1790544 1.5g 2912 R 93.8 45.7 0:45.61 bash mem.sh
+-----------------------------------
+03:54:08
+MiB Mem :   3356.8 total,   1554.5 free,   1680.7 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1502.5 avail Mem 
+  14531 root      20   0 1833708   1.5g   2912 R  99.9  47.0   0:46.86 bash mem.sh
+  14957 root      20   0  275084   4368   3792 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1833708 1.5g 2912 R 99.9 47.0 0:46.86 bash mem.sh
+-----------------------------------
+03:54:10
+MiB Mem :   3356.8 total,   1512.6 free,   1722.6 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1460.6 avail Mem 
+  14531 root      20   0 1876608   1.6g   2912 R  94.1  48.2   0:48.10 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 1876608 1.6g 2912 R 94.1 48.2 0:48.10 bash mem.sh
+-----------------------------------
+03:54:11
+MiB Mem :   3356.8 total,   1472.0 free,   1763.2 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1420.0 avail Mem 
+  14531 root      20   0 1918056   1.6g   2912 R  99.9  49.4   0:49.30 bash mem.sh
+  14979 root      20   0  275084   4580   4004 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1918056 1.6g 2912 R 99.9 49.4 0:49.30 bash mem.sh
+-----------------------------------
+03:54:12
+MiB Mem :   3356.8 total,   1430.5 free,   1804.7 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1378.4 avail Mem 
+  14531 root      20   0 1960560   1.7g   2912 R  88.2  50.7   0:50.54 bash mem.sh
+  14990 root      20   0  275084   4448   3868 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 1960560 1.7g 2912 R 88.2 50.7 0:50.54 bash mem.sh
+-----------------------------------
+03:54:14
+MiB Mem :   3356.8 total,   1388.9 free,   1846.3 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1336.8 avail Mem 
+  14531 root      20   0 2003064   1.7g   2912 R  94.4  51.9   0:51.78 bash mem.sh
+     10 root      20   0       0      0      0 S   5.6   0.0   0:01.33 [ksoftirqd/0]
+  15001 root      20   0  275084   4520   3944 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+14531 root 20 0 2003064 1.7g 2912 R 94.4 51.9 0:51.78 bash mem.sh
+-----------------------------------
+03:54:15
+MiB Mem :   3356.8 total,   1347.3 free,   1887.9 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1295.3 avail Mem 
+  14531 root      20   0 2045700   1.7g   2912 R  94.1  53.1   0:53.01 bash mem.sh
+  15012 root      20   0  275084   4408   3828 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2045700 1.7g 2912 R 94.1 53.1 0:53.01 bash mem.sh
+-----------------------------------
+03:54:16
+MiB Mem :   3356.8 total,   1304.9 free,   1930.2 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1252.9 avail Mem 
+  14531 root      20   0 2088996   1.8g   2912 R  94.1  54.4   0:54.26 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 2088996 1.8g 2912 R 94.1 54.4 0:54.26 bash mem.sh
+-----------------------------------
+03:54:17
+MiB Mem :   3356.8 total,   1262.6 free,   1972.6 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1210.6 avail Mem 
+  14531 root      20   0 2132160   1.8g   2912 R  94.1  55.6   0:55.52 bash mem.sh
+  15034 root      20   0  275084   4528   3948 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2132160 1.8g 2912 R 94.1 55.6 0:55.52 bash mem.sh
+-----------------------------------
+03:54:19
+MiB Mem :   3356.8 total,   1220.5 free,   2014.6 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1168.5 avail Mem 
+  14531 root      20   0 2174928   1.9g   2912 R  99.9  56.9   0:56.77 bash mem.sh
+  15047 root      20   0  275084   4496   3916 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2174928 1.9g 2912 R 99.9 56.9 0:56.77 bash mem.sh
+-----------------------------------
+03:54:20
+MiB Mem :   3356.8 total,   1178.7 free,   2056.5 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1126.7 avail Mem 
+  14531 root      20   0 2217696   1.9g   2912 R  94.7  58.1   0:58.01 bash mem.sh
+  15058 root      20   0  275084   4512   3932 R   5.3   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2217696 1.9g 2912 R 94.7 58.1 0:58.01 bash mem.sh
+-----------------------------------
+03:54:21
+MiB Mem :   3356.8 total,   1137.4 free,   2097.8 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1085.3 avail Mem 
+  14531 root      20   0 2260200   1.9g   2912 R  99.9  59.4   0:59.24 bash mem.sh
+  15069 root      20   0  275084   4460   3880 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2260200 1.9g 2912 R 99.9 59.4 0:59.24 bash mem.sh
+-----------------------------------
+03:54:22
+MiB Mem :   3356.8 total,   1096.7 free,   2138.4 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1044.7 avail Mem 
+  14531 root      20   0 2301780   2.0g   2912 R  99.9  60.6   1:00.46 bash mem.sh
+  15080 root      20   0  275084   4492   3912 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2301780 2.0g 2912 R 99.9 60.6 1:00.46 bash mem.sh
+-----------------------------------
+03:54:24
+MiB Mem :   3356.8 total,   1054.4 free,   2180.8 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.   1002.4 avail Mem 
+  14531 root      20   0 2344944   2.0g   2912 R  94.4  61.8   1:01.70 bash mem.sh
+  15091 root      20   0  275084   4468   3888 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2344944 2.0g 2912 R 94.4 61.8 1:01.70 bash mem.sh
+-----------------------------------
+03:54:25
+MiB Mem :   3356.8 total,   1012.6 free,   2222.6 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    960.6 avail Mem 
+  14531 root      20   0 2387580   2.1g   2912 R  99.9  63.1   1:02.95 bash mem.sh
+  15102 root      20   0  275084   4404   3828 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2387580 2.1g 2912 R 99.9 63.1 1:02.95 bash mem.sh
+-----------------------------------
+03:54:26
+MiB Mem :   3356.8 total,    971.7 free,   2263.4 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    919.7 avail Mem 
+  14531 root      20   0 2429292   2.1g   2912 R  88.2  64.3   1:04.16 bash mem.sh
+  15113 root      20   0  275084   4516   3936 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2429292 2.1g 2912 R 88.2 64.3 1:04.16 bash mem.sh
+-----------------------------------
+03:54:28
+MiB Mem :   3356.8 total,    930.4 free,   2304.8 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    878.4 avail Mem 
+  14531 root      20   0 2471400   2.1g   2912 R  99.9  65.5   1:05.39 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 2471400 2.1g 2912 R 99.9 65.5 1:05.39 bash mem.sh
+-----------------------------------
+03:54:29
+MiB Mem :   3356.8 total,    889.0 free,   2346.1 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    837.0 avail Mem 
+  14531 root      20   0 2513772   2.2g   2912 R  99.9  66.7   1:06.62 bash mem.sh
+  15135 root      20   0  275084   4548   3972 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2513772 2.2g 2912 R 99.9 66.7 1:06.62 bash mem.sh
+-----------------------------------
+03:54:30
+MiB Mem :   3356.8 total,    847.9 free,   2387.2 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    795.9 avail Mem 
+  14531 root      20   0 2555748   2.2g   2912 R  94.1  68.0   1:07.83 bash mem.sh
+  15146 root      20   0  275084   4508   3928 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2555748 2.2g 2912 R 94.1 68.0 1:07.83 bash mem.sh
+-----------------------------------
+03:54:31
+MiB Mem :   3356.8 total,    806.4 free,   2428.8 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    754.4 avail Mem 
+  14531 root      20   0 2598252   2.3g   2912 R  94.1  69.2   1:09.07 bash mem.sh
+  15157 root      20   0  275084   4556   3976 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2598252 2.3g 2912 R 94.1 69.2 1:09.07 bash mem.sh
+-----------------------------------
+03:54:33
+MiB Mem :   3356.8 total,    766.7 free,   2468.4 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    714.7 avail Mem 
+  14531 root      20   0 2638776   2.3g   2912 R  99.9  70.4   1:10.26 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 2638776 2.3g 2912 R 99.9 70.4 1:10.26 bash mem.sh
+-----------------------------------
+03:54:34
+MiB Mem :   3356.8 total,    724.9 free,   2510.3 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    672.9 avail Mem 
+  14531 root      20   0 2681808   2.3g   2912 R  94.7  71.6   1:11.51 bash mem.sh
+  15179 root      20   0  275084   4308   3728 R   5.3   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2681808 2.3g 2912 R 94.7 71.6 1:11.51 bash mem.sh
+-----------------------------------
+03:54:35
+MiB Mem :   3356.8 total,    684.0 free,   2551.1 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    632.0 avail Mem 
+  14531 root      20   0 2723652   2.4g   2912 R  88.9  72.8   1:12.73 bash mem.sh
+  15190 root      20   0  275084   4468   3888 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2723652 2.4g 2912 R 88.9 72.8 1:12.73 bash mem.sh
+-----------------------------------
+03:54:36
+MiB Mem :   3356.8 total,    642.2 free,   2592.9 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    590.2 avail Mem 
+  14531 root      20   0 2766156   2.4g   2912 R  94.1  74.1   1:13.96 bash mem.sh
+  15201 root      20   0  275084   4340   3760 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2766156 2.4g 2912 R 94.1 74.1 1:13.96 bash mem.sh
+-----------------------------------
+03:54:38
+MiB Mem :   3356.8 total,    600.9 free,   2634.3 used,    121.6 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    548.9 avail Mem 
+  14531 root      20   0 2808396   2.5g   2912 R  94.1  75.3   1:15.21 bash mem.sh
+  15212 root      20   0  275084   4508   3932 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2808396 2.5g 2912 R 94.1 75.3 1:15.21 bash mem.sh
+-----------------------------------
+03:54:39
+MiB Mem :   3356.8 total,    559.3 free,   2675.9 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    507.3 avail Mem 
+  14531 root      20   0 2850636   2.5g   2912 R  99.9  76.6   1:16.44 bash mem.sh
+  15225 root      20   0  275084   4508   3932 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2850636 2.5g 2912 R 99.9 76.6 1:16.44 bash mem.sh
+-----------------------------------
+03:54:40
+MiB Mem :   3356.8 total,    518.2 free,   2717.0 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    466.2 avail Mem 
+  14531 root      20   0 2892744   2.5g   2912 R  99.9  77.8   1:17.68 bash mem.sh
+  15236 root      20   0  275084   4336   3760 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2892744 2.5g 2912 R 99.9 77.8 1:17.68 bash mem.sh
+-----------------------------------
+03:54:41
+MiB Mem :   3356.8 total,    477.3 free,   2757.8 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    425.3 avail Mem 
+  14531 root      20   0 2934720   2.6g   2912 R  94.1  79.0   1:18.89 bash mem.sh
+  14745 root      20   0  275204   5028   4260 S   5.9   0.1   0:00.08 top -c
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 2934720 2.6g 2912 R 94.1 79.0 1:18.89 bash mem.sh
+-----------------------------------
+03:54:43
+MiB Mem :   3356.8 total,    435.2 free,   2799.9 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    383.3 avail Mem 
+  14531 root      20   0 2977620   2.6g   2912 R  89.5  80.2   1:20.13 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 2977620 2.6g 2912 R 89.5 80.2 1:20.13 bash mem.sh
+-----------------------------------
+03:54:44
+MiB Mem :   3356.8 total,    393.4 free,   2841.7 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    341.4 avail Mem 
+  14531 root      20   0 3020388   2.7g   2912 R  99.9  81.5   1:21.38 bash mem.sh
+  15269 root      20   0  275084   4520   3944 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3020388 2.7g 2912 R 99.9 81.5 1:21.38 bash mem.sh
+-----------------------------------
+03:54:45
+MiB Mem :   3356.8 total,    352.1 free,   2883.1 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    300.1 avail Mem 
+  14531 root      20   0 3062760   2.7g   2912 R  99.9  82.7   1:22.60 bash mem.sh
+  15280 root      20   0  275084   4584   4004 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3062760 2.7g 2912 R 99.9 82.7 1:22.60 bash mem.sh
+-----------------------------------
+03:54:47
+MiB Mem :   3356.8 total,    311.0 free,   2924.2 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    259.0 avail Mem 
+  14531 root      20   0 3104604   2.8g   2912 R  94.1  83.9   1:23.82 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 3104604 2.8g 2912 R 94.1 83.9 1:23.82 bash mem.sh
+-----------------------------------
+03:54:48
+MiB Mem :   3356.8 total,    268.9 free,   2966.2 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    216.9 avail Mem 
+  14531 root      20   0 3147768   2.8g   2912 R  99.9  85.2   1:25.08 bash mem.sh
+  15302 root      20   0  275084   4504   3924 R   5.6   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3147768 2.8g 2912 R 99.9 85.2 1:25.08 bash mem.sh
+-----------------------------------
+03:54:49
+MiB Mem :   3356.8 total,    227.0 free,   3008.1 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    175.1 avail Mem 
+  14531 root      20   0 3190536   2.8g   2912 R  99.9  86.4   1:26.32 bash mem.sh
+  15313 root      20   0  275084   4508   3928 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3190536 2.8g 2912 R 99.9 86.4 1:26.32 bash mem.sh
+-----------------------------------
+03:54:50
+MiB Mem :   3356.8 total,    185.7 free,   3049.4 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.    133.7 avail Mem 
+  14531 root      20   0 3232512   2.9g   2912 R  99.9  87.7   1:27.53 bash mem.sh
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 3232512 2.9g 2912 R 99.9 87.7 1:27.53 bash mem.sh
+-----------------------------------
+03:54:52
+MiB Mem :   3356.8 total,    143.9 free,   3091.3 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.     91.9 avail Mem 
+  14531 root      20   0 3275544   2.9g   2912 R  99.9  88.9   1:28.79 bash mem.sh
+  15335 root      20   0  275084   4428   3852 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3275544 2.9g 2912 R 99.9 88.9 1:28.79 bash mem.sh
+-----------------------------------
+03:54:53
+MiB Mem :   3356.8 total,    103.0 free,   3132.1 used,    121.7 buff/cache
+MiB Swap:    820.0 total,    735.8 free,     84.2 used.     51.0 avail Mem 
+  14531 root      20   0 3317256   3.0g   2912 R  87.5  90.1   1:29.99 bash mem.sh
+  15346 root      20   0  275084   4524   3948 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5232   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3317256 3.0g 2912 R 87.5 90.1 1:29.99 bash mem.sh
+-----------------------------------
+03:54:55
+MiB Mem :   3356.8 total,     97.8 free,   3178.5 used,     80.4 buff/cache
+MiB Swap:    820.0 total,    735.2 free,     84.8 used.     25.3 avail Mem 
+  14531 root      20   0 3365304   3.0g   2912 R  77.3  91.5   1:31.40 bash mem.sh
+  15357 root      20   0  275084   4436   3860 R   4.5   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   5228   3668 S   0.0   0.2   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3365304 3.0g 2912 R 77.3 91.5 1:31.40 bash mem.sh
+-----------------------------------
+03:54:58
+MiB Mem :   3356.8 total,    103.9 free,   3198.7 used,     54.2 buff/cache
+MiB Swap:    820.0 total,    645.8 free,    174.2 used.     18.2 avail Mem 
+  14531 root      20   0 3471828   3.0g   1892 R  34.1  92.0   1:34.50 bash mem.sh
+  14700 root      20   0       0      0      0 I   2.4   0.0   0:00.02 [kworker/0:1-events]
+  15368 root      20   0  275084   4504   3924 R   2.4   0.1   0:00.02 top -bc -w 200 -n 1
+      1 root      20   0  175184   3188   1636 D   0.0   0.1   0:01.65 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+14531 root 20 0 3471828 3.0g 1892 R 34.1 92.0 1:34.50 bash mem.sh
+-----------------------------------
+03:55:00
+MiB Mem :   3356.8 total,    101.0 free,   3190.3 used,     65.5 buff/cache
+MiB Swap:    820.0 total,    581.0 free,    239.0 used.     20.9 avail Mem 
+  14531 root      20   0 3518424   3.0g   1892 R  99.9  91.5   1:35.87 bash mem.sh
+  15382 root      20   0  275084   4484   3908 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4964   3396 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3518424 3.0g 1892 R 99.9 91.5 1:35.87 bash mem.sh
+-----------------------------------
+03:55:01
+MiB Mem :   3356.8 total,    110.7 free,   3180.9 used,     65.2 buff/cache
+MiB Swap:    820.0 total,    533.0 free,    287.0 used.     30.5 avail Mem 
+  14531 root      20   0 3558288   3.0g   1892 R  87.5  91.2   1:37.04 bash mem.sh
+     10 root      20   0       0      0      0 S   6.2   0.0   0:01.35 [ksoftirqd/0]
+     69 root      20   0       0      0      0 S   6.2   0.0   0:30.22 [kswapd0]
+  15393 root      20   0  275084   4408   3832 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4964   3396 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+14531 root 20 0 3558288 3.0g 1892 R 87.5 91.2 1:37.04 bash mem.sh
+-----------------------------------
+03:55:02
+MiB Mem :   3356.8 total,     96.4 free,   3194.6 used,     65.7 buff/cache
+MiB Swap:    820.0 total,    509.3 free,    310.7 used.     16.6 avail Mem 
+  14531 root      20   0 3599868   3.0g   1892 R  78.9  91.7   1:38.24 bash mem.sh
+  15404 root      20   0  275084   4336   3756 R   5.3   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4964   3396 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3599868 3.0g 1892 R 78.9 91.7 1:38.24 bash mem.sh
+-----------------------------------
+03:55:03
+MiB Mem :   3356.8 total,    111.7 free,   3180.3 used,     64.8 buff/cache
+MiB Swap:    820.0 total,    454.4 free,    365.6 used.     31.3 avail Mem 
+  14531 root      20   0 3638676   3.0g   1892 R  81.2  91.2   1:39.37 bash mem.sh
+     69 root      20   0       0      0      0 S  12.5   0.0   0:30.30 [kswapd0]
+  15415 root      20   0  275084   4324   3744 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4964   3396 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+14531 root 20 0 3638676 3.0g 1892 R 81.2 91.2 1:39.37 bash mem.sh
+-----------------------------------
+03:55:05
+MiB Mem :   3356.8 total,    111.2 free,   3180.2 used,     65.4 buff/cache
+MiB Swap:    820.0 total,    406.4 free,    413.6 used.     31.1 avail Mem 
+  14531 root      20   0 3680916   3.0g   1892 R  70.0  91.0   1:40.59 bash mem.sh
+     69 root      20   0       0      0      0 D  10.0   0.0   0:30.35 [kswapd0]
+  15426 root      20   0  275084   4516   3940 R   5.0   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4964   3396 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+14531 root 20 0 3680916 3.0g 1892 R 70.0 91.0 1:40.59 bash mem.sh
+-----------------------------------
+03:55:06
+MiB Mem :   3356.8 total,    111.5 free,   3179.6 used,     65.7 buff/cache
+MiB Swap:    820.0 total,    376.4 free,    443.6 used.     31.6 avail Mem 
+  14531 root      20   0 3724608   3.0g   1892 R  99.9  91.4   1:41.85 bash mem.sh
+  15437 root      20   0  275084   4424   3848 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4964   3396 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3724608 3.0g 1892 R 99.9 91.4 1:41.85 bash mem.sh
+-----------------------------------
+03:55:07
+MiB Mem :   3356.8 total,    125.7 free,   3166.4 used,     64.6 buff/cache
+MiB Swap:    820.0 total,    322.0 free,    498.0 used.     45.3 avail Mem 
+  14531 root      20   0 3766320   3.0g   1892 R  70.0  91.0   1:43.05 bash mem.sh
+     69 root      20   0       0      0      0 R   5.0   0.0   0:30.44 [kswapd0]
+      1 root      20   0  175184   4956   3388 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3766320 3.0g 1892 R 70.0 91.0 1:43.05 bash mem.sh
+-----------------------------------
+03:55:09
+MiB Mem :   3356.8 total,    115.4 free,   3172.9 used,     68.5 buff/cache
+MiB Swap:    820.0 total,    285.6 free,    534.4 used.     36.8 avail Mem 
+  14531 root      20   0 3808692   3.0g   1892 R  93.3  91.1   1:44.28 bash mem.sh
+   1562 root      20   0  255320    808    628 S   6.7   0.0   0:18.37 SCREEN
+  14745 root      20   0  275204   2560   1792 S   6.7   0.1   0:00.12 top -c
+  15459 root      20   0  275084   4576   4000 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4944   3376 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+14531 root 20 0 3808692 3.0g 1892 R 93.3 91.1 1:44.28 bash mem.sh
+-----------------------------------
+03:55:10
+MiB Mem :   3356.8 total,    121.2 free,   3157.6 used,     77.9 buff/cache
+MiB Swap:    820.0 total,    230.3 free,    589.7 used.     47.4 avail Mem 
+  14531 root      20   0 3847236   3.0g   1892 R  62.5  90.6   1:45.41 bash mem.sh
+     69 root      20   0       0      0      0 R  18.8   0.0   0:30.53 [kswapd0]
+     10 root      20   0       0      0      0 S   6.2   0.0   0:01.37 [ksoftirqd/0]
+  15470 root      20   0  275084   4580   4000 R   6.2   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4920   3352 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+14531 root 20 0 3847236 3.0g 1892 R 62.5 90.6 1:45.41 bash mem.sh
+-----------------------------------
+03:55:11
+MiB Mem :   3356.8 total,    118.8 free,   3153.1 used,     84.8 buff/cache
+MiB Swap:    820.0 total,    188.1 free,    631.9 used.     48.5 avail Mem 
+  14531 root      20   0 3887232   3.0g   1892 R  94.1  90.5   1:46.58 bash mem.sh
+  15481 root      20   0  275084   4328   3752 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4908   3340 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3887232 3.0g 1892 R 94.1 90.5 1:46.58 bash mem.sh
+-----------------------------------
+03:55:13
+MiB Mem :   3356.8 total,    113.6 free,   3158.0 used,     85.2 buff/cache
+MiB Swap:    820.0 total,    152.4 free,    667.6 used.     43.5 avail Mem 
+  14531 root      20   0 3927624   3.0g   1892 R  77.8  90.6   1:47.76 bash mem.sh
+      1 root      20   0  175184   4896   3328 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_par_gp]
+14531 root 20 0 3927624 3.0g 1892 R 77.8 90.6 1:47.76 bash mem.sh
+-----------------------------------
+03:55:14
+MiB Mem :   3356.8 total,     99.8 free,   3169.9 used,     87.1 buff/cache
+MiB Swap:    820.0 total,    112.8 free,    707.2 used.     30.6 avail Mem 
+  14531 root      20   0 3969996   3.0g   1892 R  88.2  90.6   1:48.99 bash mem.sh
+  15503 root      20   0  275084   4332   3752 R   5.9   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4880   3312 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 3969996 3.0g 1892 R 88.2 90.6 1:48.99 bash mem.sh
+-----------------------------------
+03:55:15
+MiB Mem :   3356.8 total,    112.3 free,   3157.2 used,     87.3 buff/cache
+MiB Swap:    820.0 total,     57.9 free,    762.1 used.     43.1 avail Mem 
+  14531 root      20   0 4012764   3.0g   1892 R  99.9  90.2   1:50.25 bash mem.sh
+  15373 root      39  19  475864  32196  20312 R   6.7   0.9   0:00.19 /usr/libexec/platform-python /usr/bin/dnf makecache --timer
+  15514 root      20   0  275084   4416   3836 R   6.7   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4868   3300 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+14531 root 20 0 4012764 3.0g 1892 R 99.9 90.2 1:50.25 bash mem.sh
+-----------------------------------
+03:55:17
+MiB Mem :   3356.8 total,    121.7 free,   3141.3 used,     93.8 buff/cache
+MiB Swap:    820.0 total,      0.5 free,    819.5 used.     55.9 avail Mem 
+  14531 root      20   0 4054344   2.9g   1892 R  70.6  89.7   1:51.46 bash mem.sh
+     69 root      20   0       0      0      0 R  17.6   0.0   0:30.81 [kswapd0]
+      1 root      20   0  175184   4852   3284 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 4054344 2.9g 1892 R 70.6 89.7 1:51.46 bash mem.sh
+-----------------------------------
+03:55:19
+MiB Mem :   3356.8 total,     95.4 free,   3186.5 used,     74.9 buff/cache
+MiB Swap:    820.0 total,      0.0 free,    820.0 used.     20.1 avail Mem 
+  14531 root      20   0 4107276   3.0g   1892 R  71.4  91.3   1:53.01 bash mem.sh
+  15536 root      20   0  275084   4428   3848 R   4.8   0.1   0:00.01 top -bc -w 200 -n 1
+      1 root      20   0  175184   4400   2832 S   0.0   0.1   0:01.66 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 [rcu_gp]
+14531 root 20 0 4107276 3.0g 1892 R 71.4 91.3 1:53.01 bash mem.sh
+-----------------------------------
+03:55:21
+MiB Mem :   3356.8 total,   3147.4 free,    114.6 used,     94.8 buff/cache
+MiB Swap:    820.0 total,    732.1 free,     87.9 used.   3082.1 avail Mem 
+  15373 root      39  19  532200  24484   9812 R  26.9   0.7   0:00.34 /usr/libexec/platform-python /usr/bin/dnf makecache --timer
+     35 root       0 -20       0      0      0 I   7.7   0.0   0:01.25 [kworker/0:1H-kblockd]
+  15549 root      20   0  275084   4504   3924 R   7.7   0.1   0:00.06 top -bc -w 200 -n 1
+      1 root      20   0  175184   1592     24 S   0.0   0.0   0:01.67 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 [kthreadd]
+[15570.911452] Out of memory: Killed process 10472 (bash) total-vm:4175256kB, anon-rss:3201432kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:7808kB oom_score_adj:0
