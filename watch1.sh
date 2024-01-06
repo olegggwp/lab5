@@ -2,14 +2,14 @@
 
 log="toplog1"   
 
-bash mem.bash &
+bash mem.sh &
 
 echo "starting logging" > $log
 
 while true 
 do
   top_table=$(top -bc -w 200 -n 1)
-  info=$(grep "mem.bash" <<< $top_table)
+  info=$(grep "mem.sh" <<< $top_table)
   if [[ -z $info ]]; 
   then break; 
   fi
